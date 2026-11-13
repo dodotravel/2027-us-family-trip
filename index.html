@@ -392,7 +392,7 @@ const flag=i=>String.fromCodePoint(...[...i].map(c=>127397+c.charCodeAt(0)));
 const cInfo=n=>COUNTRIES.find(x=>x.n===n)||COUNTRIES[1];
 
 /* ---------- 상태 ---------- */
-let S={store:{trips:[]},tripId:null,screen:'list',day:0,pday:0,view:false,viewTrip:null,mmode:'d',bgKey:null};
+let S={store:{trips:[cleanTrip(DEFAULT_TRIP)]},tripId:null,screen:'list',day:0,pday:0,view:false,viewTrip:null,mmode:'d',bgKey:null};
 let RATES=null,RATE_TIME=null,RATE_LIVE=false;
 const PICK={};
 const $=s=>document.querySelector(s);
@@ -411,7 +411,7 @@ async function saveStore(){
   try{localStorage.setItem(KEY,JSON.stringify(S.store))}catch(e){toast('저장 공간이 부족해요. 백업 후 정리해 주세요')}}
 async function load(){let j=null;
   try{j=await idbGet(KEY)}catch(e){}
-  if(!(j&&j.trips)){j=null;try{const l=JSON.parse(localStorage.getItem(KEY));if(l&&l.trips)j=l}catch(e){}
+  if(!(j&&j.trips&&j.trips.length)){j=null;try{const l=JSON.parse(localStorage.getItem(KEY));if(l&&l.trips)j=l}catch(e){}
     if(j){S.store=j;await saveStore()}}
   else S.store=j;
   try{localStorage.removeItem(KEY+'.bak')}catch(e){}
