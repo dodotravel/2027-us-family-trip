@@ -506,6 +506,27 @@
         "amount": 113.26,
         "cur": "LOCAL",
         "memo": "홀스슈 2박 리조트피 (세금 포함, 현장 결제 예상)"
+      },
+      {
+        "id": "exp_pre_07",
+        "cat": "transport",
+        "amount": 800.0,
+        "cur": "LOCAL",
+        "memo": "렌터카 전 일정 예산 (8박 9일 LAX→LAS)"
+      },
+      {
+        "id": "exp_pre_08",
+        "cat": "lodging",
+        "amount": 1600000,
+        "cur": "KRW",
+        "memo": "LA 숙소 4박 예산 (1박당 40만 원)"
+      },
+      {
+        "id": "exp_pre_09",
+        "cat": "lodging",
+        "amount": 400000,
+        "cur": "KRW",
+        "memo": "그랜드캐년 사우스림 숙소 1박 예산"
       }
     ],
     "0": [],
@@ -518,5 +539,5 @@
     "7": [],
     "8": []
   },
-  "version": 4
+  "version": 5
 }
