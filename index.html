@@ -411,9 +411,12 @@ async function saveStore(){
   try{localStorage.setItem(KEY,JSON.stringify(S.store))}catch(e){toast('저장 공간이 부족해요. 백업 후 정리해 주세요')}}
 async function load(){let j=null;
   try{j=await idbGet(KEY)}catch(e){}
-  if(!(j&&j.trips&&j.trips.length)){j=null;try{const l=JSON.parse(localStorage.getItem(KEY));if(l&&l.trips)j=l}catch(e){}
-    if(j){S.store=j;await saveStore()}}
-  else S.store=j;
+  if(!(j&&j.trips&&j.trips.length)){
+    S.store={trips:[cleanTrip(DEFAULT_TRIP)]};
+    await saveStore();
+  } else {
+    S.store=j;
+  }
   try{localStorage.removeItem(KEY+'.bak')}catch(e){}
   try{if(navigator.storage&&navigator.storage.persist)navigator.storage.persist()}catch(e){}
   lastSnap=snap()}
