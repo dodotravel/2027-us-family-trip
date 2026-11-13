@@ -392,7 +392,7 @@ const flag=i=>String.fromCodePoint(...[...i].map(c=>127397+c.charCodeAt(0)));
 const cInfo=n=>COUNTRIES.find(x=>x.n===n)||COUNTRIES[1];
 
 /* ---------- 상태 ---------- */
-let S={store:{trips:[cleanTrip(DEFAULT_TRIP)]},tripId:null,screen:'list',day:0,pday:0,view:false,viewTrip:null,mmode:'d',bgKey:null};
+let S={store:{trips:[]},tripId:null,screen:'list',day:0,pday:0,view:false,viewTrip:null,mmode:'d',bgKey:null};
 let RATES=null,RATE_TIME=null,RATE_LIVE=false;
 const PICK={};
 const $=s=>document.querySelector(s);
@@ -412,8 +412,10 @@ async function saveStore(){
 async function load(){let j=null;
   try{j=await idbGet(KEY)}catch(e){}
   if(!(j&&j.trips&&j.trips.length)){
-    S.store={trips:[cleanTrip(DEFAULT_TRIP)]};
-    await saveStore();
+    try{
+      S.store={trips:[cleanTrip(DEFAULT_TRIP)]};
+      await saveStore();
+    }catch(e){console.error("cleanTrip err",e);S.store={trips:[]}}
   } else {
     S.store=j;
   }
