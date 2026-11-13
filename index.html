@@ -1399,6 +1399,12 @@ setInterval(()=>{pollShared()},30000);
   try{if(window.__SHARED__)shared=cleanTrip(window.__SHARED__);else if(h.startsWith('#v='))shared=cleanTrip(await dec(h.slice(3)))}catch(e){shared=null}
   if(shared){S.view=true;S.viewTrip=shared;S.shareId=shared.shareId||null;S.screen='preview';S.pday=todayIdx(shared);render.scrolled=0;render();return}
   await load();
+  if (!S.store || !S.store.trips || !S.store.trips.length) {
+    try {
+      S.store = { trips: [cleanTrip(DEFAULT_TRIP)] };
+      saveStore();
+    } catch(e) { console.error(e); }
+  }
   if (location.hash === '#preview' || location.hash === '#view') {
     if (S.store && S.store.trips.length) {
       S.view = true;
