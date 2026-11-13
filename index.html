@@ -3,45 +3,39 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Western USA 2027 | Family Trip</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;background:#f7f5f0;color:#252b29;font-family:Arial,sans-serif}
+body{margin:0;background:#f7f5f0;color:#292e2b;font-family:Arial,sans-serif}
 header{padding:24px 7%;display:flex;justify-content:space-between;align-items:center}
-.logo{font-size:15px;font-weight:bold;letter-spacing:2px}
-nav a{color:#555;text-decoration:none;margin-left:20px;font-size:13px}
-.hero{margin:10px auto;width:90%;min-height:430px;border-radius:12px;
-background:linear-gradient(90deg,rgba(20,28,28,.72),rgba(20,28,28,.05)),url('https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1800&q=85') center/cover;
-display:flex;align-items:flex-end;padding:55px;color:white}
-.eyebrow{letter-spacing:4px;font-size:12px}
-h1{font-size:clamp(42px,7vw,76px);line-height:1.05;margin:18px 0}
-.hero p{font-size:15px;line-height:1.8}
-main{width:86%;max-width:1100px;margin:65px auto}
-.section-title{font-size:28px;font-weight:500;margin-bottom:25px}
-.info{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-bottom:65px}
-.info-card,.day,.tool{background:white;padding:23px;border-radius:10px}
-.info-card small,.day small{color:#99866e;letter-spacing:2px}
-.info-card h3{font-size:20px;margin:12px 0 5px}
-.info-card p,.day p{font-size:14px;color:#666;line-height:1.7}
-.days{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
-.day h3{margin:12px 0}
-.day .date{font-size:12px;color:#99866e}
-.day p{margin-bottom:0}
-.tools{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
-.tool h3{margin-top:0}
-.tool a{color:#9a7750;text-decoration:none;font-size:14px}
-input,button{padding:10px;border:1px solid #ddd;border-radius:5px;font-size:14px}
-button{background:#35443c;color:white;cursor:pointer;border:0}
-.expense{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
-.expense input{min-width:0;flex:1}
+.logo{font-size:14px;font-weight:bold;letter-spacing:2px}
+nav a{margin-left:16px;color:#555;text-decoration:none;font-size:12px}
+.hero{margin:10px auto;width:90%;min-height:400px;border-radius:12px;
+background:linear-gradient(90deg,#172622bb,#17262222),url('https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1800&q=85') center/cover;
+display:flex;align-items:flex-end;padding:45px;color:white}
+.hero h1{font-size:clamp(45px,8vw,80px);margin:18px 0}
+.hero p{line-height:1.8}
+main{width:86%;max-width:1100px;margin:60px auto}
+.heading{font-size:27px;margin-bottom:22px;font-weight:500}
+.info,.days,.tools{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.info{grid-template-columns:repeat(3,1fr);margin-bottom:65px}
+.card{background:white;padding:23px;border-radius:10px}
+small{color:#9a8060;letter-spacing:1.5px}
+h3{margin:12px 0}
+.card p{font-size:14px;color:#666;line-height:1.7}
+.day{border-left:3px solid #9a8060}
+section{margin-bottom:60px}
+a{color:#8b704e}
+input,button{padding:11px;border:1px solid #ddd;border-radius:5px;font-size:14px}
+button{background:#35443c;color:white;border:0;cursor:pointer}
 footer{text-align:center;padding:35px;color:#888;font-size:12px}
 @media(max-width:650px){
-header{padding:20px 5%}nav a{margin-left:9px;font-size:11px}
-.hero{width:94%;min-height:360px;padding:25px}
-main{width:90%;margin:45px auto}
-.info{grid-template-columns:1fr}
-.days,.tools{grid-template-columns:1fr}
+header{padding:20px 5%}
+nav a{margin-left:8px;font-size:10px}
+.hero{width:94%;min-height:330px;padding:25px}
+main{width:90%;margin:40px auto}
+.info,.days,.tools{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -55,112 +49,116 @@ main{width:90%;margin:45px auto}
 </nav>
 </header>
 
-<section class="hero">
+<div class="hero">
 <div>
-<div class="eyebrow">APRIL 29 — MAY 06, 2027</div>
+<small style="color:white">APRIL 29 — MAY 06, 2027</small>
 <h1>WESTERN<br>USA.</h1>
 <p>Los Angeles · Las Vegas · Grand Canyon<br>
 A journey of three, across the American West.</p>
 </div>
-</section>
+</div>
 
 <main>
 <section>
-<div class="section-title">The Journey</div>
+<div class="heading">The Journey</div>
 <div class="info">
-<div class="info-card">
-<small>01 / DESTINATION</small>
+<div class="card">
+<small>01 / APR 29–MAY 02</small>
 <h3>Los Angeles</h3>
-<p>City life, food & family time</p>
+<p>3 nights · City & family time</p>
 </div>
-<div class="info-card">
-<small>02 / DESTINATION</small>
-<h3>American Canyon</h3>
-<p>Nature, vast landscapes & stars</p>
-</div>
-<div class="info-card">
-<small>03 / DESTINATION</small>
+<div class="card">
+<small>02 / MAY 02–04</small>
 <h3>Las Vegas</h3>
-<p>Hotels, shopping & entertainment</p>
+<p>2 nights · Hotel, shopping & entertainment</p>
+</div>
+<div class="card">
+<small>03 / MAY 04–06</small>
+<h3>Grand Canyon</h3>
+<p>2 nights · Nature & stargazing</p>
 </div>
 </div>
 </section>
 
 <section id="itinerary">
-<div class="section-title">Travel Itinerary</div>
+<div class="heading">Travel Itinerary</div>
 <div class="days">
-<div class="day">
-<div class="date">DAY 01 · APR 29</div>
+
+<div class="card day">
+<small>DAY 01 · APR 29 THU</small>
 <h3>Arrival in Los Angeles</h3>
-<p>Airport arrival, rental car or transfer, hotel check-in and relaxed city time.</p>
+<p>LA arrival, airport transfer, accommodation check-in and rest.</p>
 </div>
-<div class="day">
-<div class="date">DAY 02 · APR 30</div>
-<h3>Los Angeles</h3>
-<p>City exploration, restaurants and meeting family.</p>
+
+<div class="card day">
+<small>DAY 02 · APR 30 FRI</small>
+<h3>Los Angeles & Family</h3>
+<p>City sightseeing and half-day meeting with relatives.</p>
 </div>
-<div class="day">
-<div class="date">DAY 03 · MAY 01</div>
-<h3>Los Angeles</h3>
-<p>Flexible sightseeing, shopping and local experiences.</p>
+
+<div class="card day">
+<small>DAY 03 · MAY 01 SAT</small>
+<h3>Discover Los Angeles</h3>
+<p>Shopping, restaurants and relaxed city exploration.</p>
 </div>
-<div class="day">
-<div class="date">DAY 04 · MAY 02</div>
-<h3>Las Vegas</h3>
-<p>Move to Las Vegas, hotel check-in and evening on the Strip.</p>
+
+<div class="card day">
+<small>DAY 04 · MAY 02 SUN</small>
+<h3>Las Vegas Arrival</h3>
+<p>Travel from LA to Las Vegas, hotel check-in, Las Vegas Strip and evening entertainment.</p>
 </div>
-<div class="day">
-<div class="date">DAY 05 · MAY 03</div>
+
+<div class="card day">
+<small>DAY 05 · MAY 03 MON</small>
+<h3>Las Vegas City Day</h3>
+<p>Hotel breakfast, shopping, hotel exploration, restaurants and a relaxed day in Las Vegas.</p>
+</div>
+
+<div class="card day">
+<small>DAY 06 · MAY 04 TUE</small>
 <h3>Bryce Canyon</h3>
-<p>Explore dramatic red rock formations and enjoy the night sky.</p>
+<p>Early departure from Las Vegas. Explore Bryce Canyon viewpoints and enjoy the night sky. Overnight near Bryce Canyon.</p>
 </div>
-<div class="day">
-<div class="date">DAY 06 · MAY 04</div>
-<h3>Antelope & Horseshoe Bend</h3>
-<p>Slot canyon tour and spectacular Colorado River views.</p>
+
+<div class="card day">
+<small>DAY 07 · MAY 05 WED</small>
+<h3>Horseshoe Bend & Antelope Canyon</h3>
+<p>Visit Horseshoe Bend and take a guided Antelope Canyon tour. Continue toward Grand Canyon South Rim. Overnight near the Grand Canyon.</p>
 </div>
-<div class="day">
-<div class="date">DAY 07 · MAY 05</div>
-<h3>Grand Canyon South Rim</h3>
-<p>Experience the immense scale of the Grand Canyon.</p>
+
+<div class="card day">
+<small>DAY 08 · MAY 06 THU</small>
+<h3>Grand Canyon & Departure</h3>
+<p>Morning South Rim viewpoints. Drive back to Las Vegas, return to airport and depart at 23:50.</p>
 </div>
-<div class="day">
-<div class="date">DAY 08 · MAY 06</div>
-<h3>Las Vegas & Departure</h3>
-<p>Last day, shopping and late-night flight home.</p>
-</div>
+
 </div>
 </section>
 
-<section id="map" style="margin-top:65px">
-<div class="section-title">Explore the Route</div>
+<section id="map">
+<div class="heading">Explore the Route</div>
 <div class="tools">
-<div class="tool">
-<h3>Los Angeles</h3>
-<a href="https://www.google.com/maps/search/?api=1&query=Los+Angeles" target="_blank">Open Google Maps ↗</a>
-</div>
-<div class="tool">
-<h3>Bryce Canyon</h3>
-<a href="https://www.google.com/maps/search/?api=1&query=Bryce+Canyon" target="_blank">Open Google Maps ↗</a>
-</div>
-<div class="tool">
-<h3>Antelope Canyon</h3>
-<a href="https://www.google.com/maps/search/?api=1&query=Antelope+Canyon" target="_blank">Open Google Maps ↗</a>
-</div>
-<div class="tool">
-<h3>Grand Canyon South Rim</h3>
-<a href="https://www.google.com/maps/search/?api=1&query=Grand+Canyon+South+Rim" target="_blank">Open Google Maps ↗</a>
-</div>
+<div class="card"><h3>Los Angeles</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Los+Angeles" target="_blank">Open Maps ↗</a></div>
+<div class="card"><h3>Las Vegas</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Las+Vegas" target="_blank">Open Maps ↗</a></div>
+<div class="card"><h3>Bryce Canyon</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Bryce+Canyon" target="_blank">Open Maps ↗</a></div>
+<div class="card"><h3>Horseshoe Bend</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Horseshoe+Bend" target="_blank">Open Maps ↗</a></div>
+<div class="card"><h3>Antelope Canyon</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Antelope+Canyon" target="_blank">Open Maps ↗</a></div>
+<div class="card"><h3>Grand Canyon South Rim</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Grand+Canyon+South+Rim" target="_blank">Open Maps ↗</a></div>
 </div>
 </section>
 
-<section id="budget" style="margin-top:65px">
-<div class="section-title">Travel Budget</div>
-<div class="tool">
-<h3>Expense Tracker</h3>
-<p>Enter expenses in USD. This first version saves data in this browser only.</p>
-<div class="expense">
-<input id="item" placeholder="Expense (e.g. Hotel)">
+<section id="budget">
+<div class="heading">Travel Budget</div>
+<div class="card">
+<h3>Expense Tracker · USD</h3>
+<div style="display:flex;gap:8px;flex-wrap:wrap">
+<input id="item" placeholder="Expense name">
 <input id="amount" type="number" placeholder="USD">
 <button onclick="addExpense()">Add</button>
 </div>
@@ -169,8 +167,7 @@ A journey of three, across the American West.</p>
 </div>
 </section>
 </main>
-
-<footer>WESTERN USA · FAMILY TRIP 2027<br>Made with love for our family.</footer>
+<footer>WESTERN USA · FAMILY TRIP 2027</footer>
 
 <script>
 let expenses=JSON.parse(localStorage.getItem('tripExpenses')||'[]');
@@ -180,9 +177,9 @@ document.getElementById('expenses').innerHTML=expenses.map((e,i)=>
 document.getElementById('total').textContent='Total: $'+expenses.reduce((s,e)=>s+e.amount,0).toLocaleString();
 }
 function addExpense(){
-const name=document.getElementById('item').value.trim();
-const amount=Number(document.getElementById('amount').value);
-if(!name||amount<=0)return alert('항목과 금액을 입력해 주세요.');
+let name=document.getElementById('item').value.trim();
+let amount=Number(document.getElementById('amount').value);
+if(!name||amount<=0)return alert('항목과 금액을 입력하세요.');
 expenses.push({name,amount});
 localStorage.setItem('tripExpenses',JSON.stringify(expenses));
 document.getElementById('item').value='';
