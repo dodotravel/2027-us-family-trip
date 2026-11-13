@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Western USA 2027 | Family Trip</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f7f5f0;color:#252b29;font-family:Arial,sans-serif}
+header{padding:24px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:15px;font-weight:bold;letter-spacing:2px}
+nav a{color:#555;text-decoration:none;margin-left:20px;font-size:13px}
+.hero{margin:10px auto;width:90%;min-height:430px;border-radius:12px;
+background:linear-gradient(90deg,rgba(20,28,28,.72),rgba(20,28,28,.05)),url('https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1800&q=85') center/cover;
+display:flex;align-items:flex-end;padding:55px;color:white}
+.eyebrow{letter-spacing:4px;font-size:12px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.05;margin:18px 0}
+.hero p{font-size:15px;line-height:1.8}
+main{width:86%;max-width:1100px;margin:65px auto}
+.section-title{font-size:28px;font-weight:500;margin-bottom:25px}
+.info{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-bottom:65px}
+.info-card,.day,.tool{background:white;padding:23px;border-radius:10px}
+.info-card small,.day small{color:#99866e;letter-spacing:2px}
+.info-card h3{font-size:20px;margin:12px 0 5px}
+.info-card p,.day p{font-size:14px;color:#666;line-height:1.7}
+.days{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.day h3{margin:12px 0}
+.day .date{font-size:12px;color:#99866e}
+.day p{margin-bottom:0}
+.tools{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.tool h3{margin-top:0}
+.tool a{color:#9a7750;text-decoration:none;font-size:14px}
+input,button{padding:10px;border:1px solid #ddd;border-radius:5px;font-size:14px}
+button{background:#35443c;color:white;cursor:pointer;border:0}
+.expense{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.expense input{min-width:0;flex:1}
+footer{text-align:center;padding:35px;color:#888;font-size:12px}
+@media(max-width:650px){
+header{padding:20px 5%}nav a{margin-left:9px;font-size:11px}
+.hero{width:94%;min-height:360px;padding:25px}
+main{width:90%;margin:45px auto}
+.info{grid-template-columns:1fr}
+.days,.tools{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">OUR FAMILY JOURNEY</div>
+<nav>
+<a href="#itinerary">ITINERARY</a>
+<a href="#map">MAP</a>
+<a href="#budget">BUDGET</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<div class="eyebrow">APRIL 29 — MAY 06, 2027</div>
+<h1>WESTERN<br>USA.</h1>
+<p>Los Angeles · Las Vegas · Grand Canyon<br>
+A journey of three, across the American West.</p>
+</div>
+</section>
+
+<main>
+<section>
+<div class="section-title">The Journey</div>
+<div class="info">
+<div class="info-card">
+<small>01 / DESTINATION</small>
+<h3>Los Angeles</h3>
+<p>City life, food & family time</p>
+</div>
+<div class="info-card">
+<small>02 / DESTINATION</small>
+<h3>American Canyon</h3>
+<p>Nature, vast landscapes & stars</p>
+</div>
+<div class="info-card">
+<small>03 / DESTINATION</small>
+<h3>Las Vegas</h3>
+<p>Hotels, shopping & entertainment</p>
+</div>
+</div>
+</section>
+
+<section id="itinerary">
+<div class="section-title">Travel Itinerary</div>
+<div class="days">
+<div class="day">
+<div class="date">DAY 01 · APR 29</div>
+<h3>Arrival in Los Angeles</h3>
+<p>Airport arrival, rental car or transfer, hotel check-in and relaxed city time.</p>
+</div>
+<div class="day">
+<div class="date">DAY 02 · APR 30</div>
+<h3>Los Angeles</h3>
+<p>City exploration, restaurants and meeting family.</p>
+</div>
+<div class="day">
+<div class="date">DAY 03 · MAY 01</div>
+<h3>Los Angeles</h3>
+<p>Flexible sightseeing, shopping and local experiences.</p>
+</div>
+<div class="day">
+<div class="date">DAY 04 · MAY 02</div>
+<h3>Las Vegas</h3>
+<p>Move to Las Vegas, hotel check-in and evening on the Strip.</p>
+</div>
+<div class="day">
+<div class="date">DAY 05 · MAY 03</div>
+<h3>Bryce Canyon</h3>
+<p>Explore dramatic red rock formations and enjoy the night sky.</p>
+</div>
+<div class="day">
+<div class="date">DAY 06 · MAY 04</div>
+<h3>Antelope & Horseshoe Bend</h3>
+<p>Slot canyon tour and spectacular Colorado River views.</p>
+</div>
+<div class="day">
+<div class="date">DAY 07 · MAY 05</div>
+<h3>Grand Canyon South Rim</h3>
+<p>Experience the immense scale of the Grand Canyon.</p>
+</div>
+<div class="day">
+<div class="date">DAY 08 · MAY 06</div>
+<h3>Las Vegas & Departure</h3>
+<p>Last day, shopping and late-night flight home.</p>
+</div>
+</div>
+</section>
+
+<section id="map" style="margin-top:65px">
+<div class="section-title">Explore the Route</div>
+<div class="tools">
+<div class="tool">
+<h3>Los Angeles</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Los+Angeles" target="_blank">Open Google Maps ↗</a>
+</div>
+<div class="tool">
+<h3>Bryce Canyon</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Bryce+Canyon" target="_blank">Open Google Maps ↗</a>
+</div>
+<div class="tool">
+<h3>Antelope Canyon</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Antelope+Canyon" target="_blank">Open Google Maps ↗</a>
+</div>
+<div class="tool">
+<h3>Grand Canyon South Rim</h3>
+<a href="https://www.google.com/maps/search/?api=1&query=Grand+Canyon+South+Rim" target="_blank">Open Google Maps ↗</a>
+</div>
+</div>
+</section>
+
+<section id="budget" style="margin-top:65px">
+<div class="section-title">Travel Budget</div>
+<div class="tool">
+<h3>Expense Tracker</h3>
+<p>Enter expenses in USD. This first version saves data in this browser only.</p>
+<div class="expense">
+<input id="item" placeholder="Expense (e.g. Hotel)">
+<input id="amount" type="number" placeholder="USD">
+<button onclick="addExpense()">Add</button>
+</div>
+<div id="expenses"></div>
+<h3 id="total">Total: $0</h3>
+</div>
+</section>
+</main>
+
+<footer>WESTERN USA · FAMILY TRIP 2027<br>Made with love for our family.</footer>
+
+<script>
+let expenses=JSON.parse(localStorage.getItem('tripExpenses')||'[]');
+function render(){
+document.getElementById('expenses').innerHTML=expenses.map((e,i)=>
+`<p>${e.name} — $${e.amount} <button onclick="removeExpense(${i})">×</button></p>`).join('');
+document.getElementById('total').textContent='Total: $'+expenses.reduce((s,e)=>s+e.amount,0).toLocaleString();
+}
+function addExpense(){
+const name=document.getElementById('item').value.trim();
+const amount=Number(document.getElementById('amount').value);
+if(!name||amount<=0)return alert('항목과 금액을 입력해 주세요.');
+expenses.push({name,amount});
+localStorage.setItem('tripExpenses',JSON.stringify(expenses));
+document.getElementById('item').value='';
+document.getElementById('amount').value='';
+render();
+}
+function removeExpense(i){
+expenses.splice(i,1);
+localStorage.setItem('tripExpenses',JSON.stringify(expenses));
+render();
+}
+render();
+</script>
+</body>
+</html>
