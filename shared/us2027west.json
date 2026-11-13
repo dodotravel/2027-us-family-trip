@@ -66,9 +66,23 @@
       },
       {
         "id": "d1_05",
-        "time": "15:00",
+        "time": "14:00",
+        "end": "16:30",
+        "place": "산타모니카 피어 (Santa Monica Pier) & 해변 산책",
+        "hh": 2,
+        "mm": 30,
+        "memo": "LAX에서 차로 20분 거리 캘리포니아 대표 해변!\n• 루트 66 종점 표지판 포토존 & 피어 산책\n• 시원한 태평양 바닷바람 쐬며 여유롭게 시차 적응",
+        "pinName": "Santa Monica Pier",
+        "url": "https://www.google.com/maps/search/?api=1&query=Santa+Monica+Pier",
+        "lat": 34.0099,
+        "lng": -118.4965,
+        "sub": []
+      },
+      {
+        "id": "d1_06",
+        "time": "17:30",
         "place": "LA 숙소 체크인 및 여독 풀기",
-        "memo": "로스앤젤레스 4박 (4/28~5/2)\n숙소 체크인 후 시차 적응 및 휴식",
+        "memo": "로스앤젤레스 4박 (4/28~5/2)\n숙소 체크인 후 첫날 여독 풀기 및 휴식",
         "pinName": "Los Angeles",
         "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles",
         "lat": 34.0522342,
@@ -79,30 +93,6 @@
     "1": [
       {
         "id": "d2_01",
-        "time": "10:30",
-        "place": "LA 친척 모임 및 점심 식사",
-        "memo": "LA 거주 친척 방문 및 반일 가족 모임\n점심 식사 및 담소",
-        "pinName": "Los Angeles",
-        "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles",
-        "lat": 34.0522342,
-        "lng": -118.2436849,
-        "sub": []
-      },
-      {
-        "id": "d2_02",
-        "time": "16:00",
-        "place": "산타모니카 피어 (Santa Monica Pier)",
-        "memo": "캘리포니아 대표 해변 산책 & 피어 관람\n루트 66 종점 표지판 포토존 & 태평양 일몰 감상",
-        "pinName": "Santa Monica Pier",
-        "url": "https://www.google.com/maps/search/?api=1&query=Santa+Monica+Pier",
-        "lat": 34.0099,
-        "lng": -118.4965,
-        "sub": []
-      }
-    ],
-    "2": [
-      {
-        "id": "d3_01",
         "time": "10:00",
         "place": "게티 센터 (The Getty Center)",
         "memo": "LA 최고 전망의 미술관이자 아름다운 정원\n트램 탑승 및 정원 산책 (입장료 무료, 주차 예약 필수)",
@@ -113,7 +103,7 @@
         "sub": []
       },
       {
-        "id": "d3_02",
+        "id": "d2_02",
         "time": "14:30",
         "place": "할리우드 명예의 거리 & TCL 차이니즈 시어터",
         "memo": "스타들의 핸드프린팅 찾기 & 할리우드 사인 뷰포인트\n윤결이와 함께하는 기념사진 촬영",
@@ -124,7 +114,7 @@
         "sub": []
       },
       {
-        "id": "d3_03",
+        "id": "d2_03",
         "time": "18:00",
         "place": "그리피스 천문대 (Griffith Observatory)",
         "memo": "영화 라라랜드 명소! LA 전체가 내려다보이는 선셋과 환상적인 야경 감상\n일몰 1시간 전 도착 권장",
@@ -135,9 +125,9 @@
         "sub": []
       }
     ],
-    "3": [
+    "2": [
       {
-        "id": "d4_01",
+        "id": "d3_01",
         "time": "10:30",
         "place": "비벌리힐스 & 로데오 드라이브 산책",
         "memo": "로데오 드라이브 명품 거리 & 야자수 거리 포토존",
@@ -148,10 +138,10 @@
         "sub": []
       },
       {
-        "id": "d4_02",
+        "id": "d3_02",
         "time": "13:00",
         "place": "더 그로브 (The Grove) & 오리지널 파머스 마켓",
-        "memo": "파머스 마켓 다양한 먹거리 점심 식사\n더 그로브 야외 쇼핑몰 분수대 앞 휴식",
+        "memo": "파머스 마켓 다양한 로컬 먹거리 점심 식사\n더 그로브 야외 쇼핑몰 분수대 앞 여유로운 휴식",
         "pinName": "The Grove",
         "url": "https://www.google.com/maps/search/?api=1&query=The+Grove+LA",
         "lat": 34.0722,
@@ -159,14 +149,38 @@
         "sub": []
       },
       {
-        "id": "d4_03",
-        "time": "17:00",
-        "place": "LA 마지막 밤 & 내일 라스베이거스 이동 준비",
-        "memo": "내일 사막 도로 장거리 운전 준비 (생수·간식 장보기 & 주유)",
+        "id": "d3_03",
+        "time": "18:00",
+        "place": "LA 로컬 맛집 저녁 식사 & 휴식",
+        "memo": "LA 다운타운/한인타운 로컬 맛집 저녁 식사 및 여유로운 밤",
         "pinName": "Los Angeles",
         "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles",
-        "lat": 34.0522,
-        "lng": -118.2437,
+        "lat": 34.0522342,
+        "lng": -118.2436849,
+        "sub": []
+      }
+    ],
+    "3": [
+      {
+        "id": "d4_01",
+        "time": "14:00",
+        "place": "오후 LA 친척 모임 및 저녁 식사",
+        "memo": "오전은 늦잠 및 여유로운 휴식 (일정 비움)\n오후 친척 가족 방문 및 담소, 맛있는 저녁 식사 함께하기",
+        "pinName": "Los Angeles",
+        "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles",
+        "lat": 34.0522342,
+        "lng": -118.2436849,
+        "sub": []
+      },
+      {
+        "id": "d4_02",
+        "time": "20:30",
+        "place": "LA 마지막 밤 & 내일 라스베이거스 이동 짐 정리",
+        "memo": "내일 모하비 사막 장거리 운전 준비 (차량 주유 & 생수·간식 장보기)",
+        "pinName": "Los Angeles",
+        "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles",
+        "lat": 34.0522342,
+        "lng": -118.2436849,
         "sub": []
       }
     ],
@@ -504,5 +518,5 @@
     "7": [],
     "8": []
   },
-  "version": 3
+  "version": 4
 }
