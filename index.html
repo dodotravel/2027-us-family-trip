@@ -899,7 +899,7 @@ function cleanTrip(j){if(!j||typeof j!=='object')throw new Error('bad');
   const numOrBlank=v=>(v===''||v==null)?'':num(v);const tm=v=>/^\d{2}:\d{2}$/.test(v)?v:'';
   const dre=/^\d{4}-\d{2}-\d{2}$/;if(!dre.test(j.start)||!dre.test(j.end))throw new Error('bad date');
   const t={id:s(j.id,40),country:s(j.country,60),city:s(j.city,80),cities:Array.isArray(j.cities)?j.cities.slice(0,8).map(x=>s(x,40)).filter(Boolean):undefined,title:s(j.title,120),start:j.start,end:j.end,
-    currency:/^[A-Z]{3}$/.test(j.currency)?j.currency:'KRW',rate:num(j.rate)||1,items:{}};
+    currency:/^[A-Z]{3}$/.test(j.currency)?j.currency:'KRW',rate:num(j.rate)||1,version:num(j.version)||0,items:{}};
   if(BID.test(j.shareId||''))t.shareId=j.shareId;
   {const ex={};const arrOf=k=>Array.isArray(j.exp&&j.exp[k])?j.exp[k]:[];
     ['pre',...Array.from({length:dayCount(t)},(_,i)=>i)].forEach(k=>{ex[k]=arrOf(k).slice(0,200).filter(e=>e&&typeof e==='object').map(e=>({id:s(e.id,40)||uid(),cat:CATS.some(c=>c[0]===e.cat)?e.cat:'etc',amount:num(e.amount),cur:e.cur==='LOCAL'?'LOCAL':'KRW',memo:s(e.memo,60)}))});t.exp=ex}
