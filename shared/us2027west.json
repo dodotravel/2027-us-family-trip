@@ -81,12 +81,12 @@
       {
         "id": "d1_06",
         "time": "17:30",
-        "place": "LA 숙소 체크인 및 여독 풀기",
-        "memo": "로스앤젤레스 4박 (4/28~5/2)\n숙소 체크인 후 첫날 여독 풀기 및 휴식",
-        "pinName": "Los Angeles",
-        "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles",
-        "lat": 34.0522342,
-        "lng": -118.2436849,
+        "place": "Luskin Hotel (UCLA 웨스트우드) 체크인",
+        "memo": "러스킨 호텔 2박 (4/28 수 ~ 4/30 금)\n• 예약번호: 1797663018 (아고다 예약 완료)\n• 주소: 425 Westwood Plaza, Los Angeles, CA 90095\n• 객실: 스탠다드 더블룸 (성인 2+아동 1, 금연/트윈베드 요청)\n• 체크인: 16:00 / 체크아웃: 11:00\n• 결제: 629.72 USD (2027-04-22 자동결제, 4/23 23:59까지 무료 취소)\n• 장점: UCLA 캠퍼스 내 위치, 안전한 치안, 게티센터·산타모니카 인접",
+        "pinName": "Luskin Hotel, UCLA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Luskin+Hotel+425+Westwood+Plaza+Los+Angeles",
+        "lat": 34.0702,
+        "lng": -118.4442,
         "sub": []
       }
     ],
@@ -130,7 +130,7 @@
         "id": "d3_01",
         "time": "10:30",
         "place": "비벌리힐스 & 로데오 드라이브 산책",
-        "memo": "로데오 드라이브 명품 거리 & 야자수 거리 포토존",
+        "memo": "오전 러스킨 호텔 체크아웃(11:00) 후 짐 싣고 이동\n세계적인 명품 거리 로데오 드라이브 산책 & 쇼핑 구경",
         "pinName": "Rodeo Drive",
         "url": "https://www.google.com/maps/search/?api=1&query=Rodeo+Drive",
         "lat": 34.0697,
@@ -517,9 +517,16 @@
       {
         "id": "exp_pre_08",
         "cat": "lodging",
-        "amount": 1600000,
+        "amount": 629.72,
+        "cur": "LOCAL",
+        "memo": "LA 러스킨 호텔 2박 (4/28~4/30, 629.72 USD 예약 확정)"
+      },
+      {
+        "id": "exp_pre_08_2",
+        "cat": "lodging",
+        "amount": 800000,
         "cur": "KRW",
-        "memo": "LA 숙소 4박 예산 (1박당 40만 원)"
+        "memo": "LA 후반 2박 예산 (4/30~5/2, 1박당 40만 원)"
       },
       {
         "id": "exp_pre_09",
@@ -539,5 +546,5 @@
     "7": [],
     "8": []
   },
-  "version": 5
+  "version": 6
 }
