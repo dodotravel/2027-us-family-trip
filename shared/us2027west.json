@@ -338,11 +338,11 @@
         "hh": 1,
         "mm": 30,
         "place": "페이지 도착 · 점심 & 호텔 체크인",
-        "memo": "페이지 1박 (5/3~5/4)\n• 예약 완료: 베스트 웨스턴 플러스 앳 레이크 파월 (3인, 예약번호 1796451662, $132.75 조식 포함)\n• ★ 기존 예약이 5/4~5/5로 잡혀 있음 — 5/3~5/4로 날짜 변경 필요 (비교 후보: 하얏트 플레이스 $215.89)\n• 주소: 208 S Lake Powell Blvd, Page, AZ 86040",
-        "pinName": "Best Western Plus At Lake Powell",
-        "url": "https://www.google.com/maps/search/?api=1&query=Best+Western+Plus+At+Lake+Powell",
-        "lat": 36.9126,
-        "lng": -111.4568,
+        "memo": "페이지 1박 (5/3 월 ~ 5/4 화) — 예약 확정\n• La Quinta Inn & Suites by Wyndham Page at Lake Powell (아고다 1799272942)\n• 2 Queen Beds · 조식 포함 · 총 $142.12 (세금 포함 · 성인 2+아동 1)\n• 결제: 2027-04-29 자동결제(••••0017) / 무료취소 2027-04-30 23:59 (페이지 현지시간)\n• 주소: 70 Kaibab Rd, Page, AZ 86040 · ☎ +1 928-645-9898 (공식 홈페이지 928-608-5327)\n• 체크인 15:00 — 다음 날 09:30 체크아웃 후 10:30 앤텔롭 캐년 X 투어, 조식 챙겨 나가기",
+        "pinName": "La Quinta Inn & Suites by Wyndham Page at Lake Powell",
+        "url": "https://www.google.com/maps/search/?api=1&query=La+Quinta+Inn+%26+Suites+by+Wyndham+Page+at+Lake+Powell",
+        "lat": 36.905596,
+        "lng": -111.4761954,
         "sub": []
       },
       {
@@ -471,12 +471,12 @@
       {
         "id": "d7_07",
         "time": "19:30",
-        "place": "그랜드캐년 사우스림 인근 숙소 체크인 (투사얀 또는 공원 내 롯지)",
-        "memo": "그랜드캐년 1박 (5/4~5/5) — 예산 40만 원\n• 공원 내(엘 토바, 브라이트 엔젤 로지) 또는 투사얀 차로 15분\n• 공원 내 숙소는 13개월 전 오픈, 취소분이 수시로 풀리니 매주 확인\n• 밤하늘 별·은하수 관측 (공원은 국제 다크스카이 파크)",
-        "pinName": "Grand Canyon Village",
-        "url": "https://www.google.com/maps/search/?api=1&query=Grand+Canyon+Village",
-        "lat": 36.0544,
-        "lng": -112.1401,
+        "place": "그랜드캐년 공원 내 숙소 체크인 (Maswik Lodge South)",
+        "memo": "그랜드캐년 1박 (5/4 화 ~ 5/5 수) — 공원 안 숙소 확정\n• Maswik Lodge South(2022년 신축 동) 2퀸 · Booking.com 5666880870 · 총 $400.53 (세금 포함)\n• 대안 예약 1킹 키치넷 5699297535 $440.09 — 둘 다 2027-05-01 23:59(MST)까지 무료취소, 최종 1건만 남기고 나머지 취소\n• 체크인 15:00 / 체크아웃 11:00 · 조식 미포함(푸드코트·매점 이용)\n• 주소: 202 South Village Loop, Grand Canyon Village, AZ 86023 · ☎ +1 928-638-2631\n• 림 산책로 도보 5~7분, 엘리베이터·실내 복도\n• 밤하늘 별·은하수 관측 (공원은 국제 다크스카이 파크)",
+        "pinName": "Maswik Lodge - Inside the Park",
+        "url": "https://www.google.com/maps/search/?api=1&query=Maswik+Lodge+Grand+Canyon",
+        "lat": 36.0536965,
+        "lng": -112.1443012,
         "sub": []
       }
     ],
@@ -726,16 +726,16 @@
       {
         "id": "exp_pre_07",
         "cat": "lodging",
-        "amount": 132.75,
+        "amount": 142.12,
         "cur": "LOCAL",
-        "memo": "페이지 베스트 웨스턴 1박 (5/3~5/4 예약, 날짜 변경 필요 · 조식 포함)"
+        "memo": "페이지 라킨타 1박 (5/3~5/4 확정 · 아고다 1799272942 · 2퀸 · 조식 포함)"
       },
       {
         "id": "exp_pre_08",
         "cat": "lodging",
-        "amount": 400000,
-        "cur": "KRW",
-        "memo": "그랜드캐년 사우스림 1박 예산 (5/4~5/5, 투사얀/공원 내 롯지)"
+        "amount": 400.53,
+        "cur": "LOCAL",
+        "memo": "그랜드캐년 Maswik Lodge South 2퀸 1박 (5/4~5/5 확정 · Booking.com 5666880870, 1킹 $440.09 대안 보유)"
       },
       {
         "id": "exp_pre_09",
@@ -769,5 +769,5 @@
     "7": [],
     "8": []
   },
-  "version": 8
+  "version": 9
 }
