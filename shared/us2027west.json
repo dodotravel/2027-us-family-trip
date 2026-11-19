@@ -541,12 +541,12 @@
         "end": "16:00",
         "hh": 1,
         "mm": 0,
-        "place": "아리아 (ARIA) 체크인 — 라스베이거스 마지막 1박",
-        "memo": "아리아 1박 (5/5~5/6)\n• 27,000P (현금가 $211/박) + 리조트피 $55 별도\n• 5/5는 벨라지오 94,000P·코스모 105,000P라 아리아가 압도적으로 유리\n• 메리어트 골드: 모바일 체크인·레이트 체크아웃(익일 13:00) 요청\n• 크리스탈 몰과 연결, 스트립 중앙이라 마지막 날 동선 편함",
-        "pinName": "ARIA Resort & Casino",
-        "url": "https://www.google.com/maps/search/?api=1&query=ARIA+Resort+and+Casino",
-        "lat": 36.1073,
-        "lng": -115.1767,
+        "place": "폰텐블로 라스베이거스 (Fontainebleau Las Vegas) 체크인",
+        "memo": "폰텐블로 1박 (5/5 수 ~ 5/6 목) — 아고다 예약 확정 1799913851\n• 블루 퀸룸(Bleu Queen Room) · 성인 2+아동 1(12세) · 금연·트윈베드 요청\n• 대표 투숙객 DO HEE KIM · 체크인 15:00 / 체크아웃 11:00\n• 요금: 룸 $136.75 + 세금·수수료 $18.30 = $155.05 (2027-04-30 자동결제 ••••0017)\n• 리조트피 $62.36 현장 결제 ($55/박+세금 · 셀프주차·Wi-Fi·피트니스 포함) → 합계 $217.41\n• 무료취소 2027-05-01 23:59(라스베이거스 현지시간)까지 / 5/2 00:00부터 환불 불가\n• 주소: 2777 S Las Vegas Blvd, Las Vegas, NV 89109\n• ☎ 아고다 확인번호 +1 833-702-7676 · 호텔 대표 702-678-7777\n• 스트립 북단 — 윈/앙코르 도보 건너편, 미쉐린 키 수상 호텔",
+        "pinName": "Fontainebleau Las Vegas",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fontainebleau+Las+Vegas",
+        "lat": 36.1374,
+        "lng": -115.1594,
         "sub": []
       },
       {
@@ -555,12 +555,12 @@
         "end": "18:30",
         "hh": 2,
         "mm": 0,
-        "place": "아리아 수영장 & 크리스탈 몰 쇼핑",
-        "memo": "장거리 운전 후 휴식 — 야외 수영장(5월 운영)과 스파\n• 크리스탈 몰: 루이비통·티파니 등, 실내 연결 통로 이용\n• 수영복·선크림은 차에 따로 두지 말고 객실로",
-        "pinName": "ARIA Resort & Casino",
-        "url": "https://www.google.com/maps/search/?api=1&query=ARIA+Resort+and+Casino",
-        "lat": 36.1073,
-        "lng": -115.1767,
+        "place": "폰텐블로 수영장 & 노스 스트립 산책",
+        "memo": "장거리 운전 후 휴식 — 폰텐블로 야외 수영장(5월 운영)과 스파\n• 수영복·선크림은 차에 두지 말고 객실로\n• 노스 스트립: 윈/앙코르 도보 건너편, 패션쇼 몰은 도보 15분·차 5분\n• 중앙 스트립(크리스탈 몰·벨라지오)은 차로 10분 — 오늘은 북단 위주로 정리",
+        "pinName": "Fontainebleau Las Vegas",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fontainebleau+Las+Vegas",
+        "lat": 36.1374,
+        "lng": -115.1594,
         "sub": []
       },
       {
@@ -570,7 +570,7 @@
         "hh": 2,
         "mm": 30,
         "place": "라스베이거스 마지막 저녁 & 스트립 야경",
-        "memo": "여행 마지막 저녁 식사 — 아리아·코스모폴리탄 레스토랑 예약 권장\n• 벨라지오 분수 쇼 마지막 관람, 스피어 외관 LED\n• 내일 13:00 체크아웃이라 무리하지 않기",
+        "memo": "여행 마지막 저녁 — 폰텐블로 내 마더 울프(이탈리안)·돈스 프라임(스테이크)·코모도(아시안) 예약 권장\n• 스피어는 북단(폰텐블로~윈) 구간에서 가장 가깝게 보임 — 스트립 야경 산책\n• 벨라지오 분수 쇼는 차로 10분(6km) — 왕복 이동 시간 고려해 선택\n• 내일 11:00 체크아웃이라 무리하지 않기",
         "pinName": "Fountains of Bellagio",
         "url": "https://www.google.com/maps/search/?api=1&query=Fountains+of+Bellagio",
         "lat": 36.1126,
@@ -585,12 +585,12 @@
         "end": "11:00",
         "hh": 2,
         "mm": 0,
-        "place": "여유로운 아침 · 수영장/스파",
-        "memo": "골드 티어 레이트 체크아웃(13:00) 요청해 둔 상태\n• 짐 정리, 기념품·영수증 확인\n• 23:50 비행이라 오전은 완전히 비워 두는 날",
-        "pinName": "ARIA Resort & Casino",
-        "url": "https://www.google.com/maps/search/?api=1&query=ARIA+Resort+and+Casino",
-        "lat": 36.1073,
-        "lng": -115.1767,
+        "place": "여유로운 아침 · 수영장/스파 & 짐 정리 (11:00 체크아웃)",
+        "memo": "폰텐블로 체크아웃 11:00 — 레이트 체크아웃 없이 정시 체크아웃\n• 오전 수영장·스파 후 10:30까지 짐 정리\n• 11:00 체크아웃하며 차에 짐 싣기, 리조트피 $62.36 정산 확인\n• 기념품·영수증 확인 / 23:50 비행이라 오전은 여유롭게",
+        "pinName": "Fontainebleau Las Vegas",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fontainebleau+Las+Vegas",
+        "lat": 36.1374,
+        "lng": -115.1594,
         "sub": []
       },
       {
@@ -599,12 +599,12 @@
         "end": "13:00",
         "hh": 2,
         "mm": 0,
-        "place": "스트립 마지막 쇼핑 & 브런치",
-        "memo": "크리스탈 몰·코스모폴리탄 쇼핑몰에서 마지막 쇼핑\n• 면세 한도(미국 1인 $800) 확인 — 영수증 모아 두기",
-        "pinName": "The Shops at Crystals",
-        "url": "https://www.google.com/maps/search/?api=1&query=The+Shops+at+Crystals",
-        "lat": 36.1083,
-        "lng": -115.1748,
+        "place": "노스 스트립 마지막 쇼핑 & 브런치 (패션쇼 몰)",
+        "memo": "패션쇼 라스베이거스 (3200 S Las Vegas Blvd) — 폰텐블로에서 차 5분·도보 15분, 10:00 오픈\n• 노드스트롬·메이시스·애플 등, 윈/앙코르 에스플러네이드도 도보권\n• 면세 한도(미국 1인 $800) 확인 — 영수증 모아 두기",
+        "pinName": "Fashion Show Las Vegas",
+        "url": "https://www.google.com/maps/search/?api=1&query=Fashion+Show+Las+Vegas",
+        "lat": 36.1275,
+        "lng": -115.1712,
         "sub": []
       },
       {
@@ -613,12 +613,12 @@
         "end": "14:30",
         "hh": 1,
         "mm": 30,
-        "place": "체크아웃 & 점심 식사",
-        "memo": "13:00 체크아웃, 차에 짐 싣기\n• 렌터카 반납 전 주유소 위치 미리 확인 (공항 인근)",
-        "pinName": "ARIA Resort & Casino",
-        "url": "https://www.google.com/maps/search/?api=1&query=ARIA+Resort+and+Casino",
-        "lat": 36.1073,
-        "lng": -115.1767,
+        "place": "점심 식사 & 주유 → 렌터카 반납 준비",
+        "memo": "폰텐블로에서 11:00 체크아웃해 짐은 이미 차에 실은 상태 — 13:00경 점심\n• 공항 방면(패러다이스 로드) 식당에서 점심, 반납 전 만땅 주유\n• 15:30 Rental Car Center 반납 → 무료 셔틀로 터미널 3 (약 10분)",
+        "pinName": "Las Vegas",
+        "url": "https://www.google.com/maps/search/?api=1&query=Las+Vegas",
+        "lat": 36.1147,
+        "lng": -115.1728,
         "sub": []
       },
       {
@@ -740,9 +740,9 @@
       {
         "id": "exp_pre_09",
         "cat": "lodging",
-        "amount": 55.0,
+        "amount": 217.41,
         "cur": "LOCAL",
-        "memo": "라스베이거스 5/5 1박 리조트피 (아리아 27,000P 숙박권, 세금 별도)"
+        "memo": "라스베이거스 폰텐블로 1박 (5/5~5/6 확정 · 아고다 1799913851 · $155.05 + 리조트피 $62.36)"
       },
       {
         "id": "exp_pre_10",
@@ -769,5 +769,5 @@
     "7": [],
     "8": []
   },
-  "version": 9
+  "version": 10
 }
